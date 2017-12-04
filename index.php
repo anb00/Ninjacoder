@@ -8,7 +8,10 @@ Blog
 <meta charset="utf-8">
 </head>
 <body>
-
+<?php
+header('Location:http://ninjacoder.dsmynas.com');
+exit;
+?>
 
 
 
