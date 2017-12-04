@@ -10,7 +10,7 @@ Blog
 <body>
 <?php
 header('Location:http://ninjacoder.dsmynas.com');
-exit;
+
 ?>
 
 
