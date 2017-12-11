@@ -1,24 +1,51 @@
+<!DOCTYPE html>
 <html>
-<head>
-<title>
-Blog
-</title>
+        <head>
+                <link rel="stylesheet" type="text/css" href="bay.css">
+                <title>Private Zone</title>
+                <style>
+                        body {
+                                text-align: center;
+                                margin-top: 80px;
+                                /*background-image: url('doors.jpg'); */
+                                margin-bottom: 15px;
+                        }
+                        input[type="text"] {
+                                width: 450px;
+                        }
+                        input[type="submit"] {
+                                margin-top: 6px;
+                        }
+                </style>
+		<script>
+			function search() {
+				var toload = "https://www.google.com/search?q=";
+				var query = document.getElementById("box").value;
+				toload = toload + query;
+				toload = toload + "+site:knowyourmeme.com&tbm=isch";
+				window.location = toload;
+			}
+		</script>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        </head>
+        <body>
+                <div class="boardlist"><span style="white-space:nowrap">[<a href="index.php" title="Superheader"> <span class="board_short"><i class="fa fa-home"></i></span><span class="board_long">Home</span>&nbsp;</a>/<a href="servicios.html" title="chat"> <span class="board_short"><i class="fa fa-comments"></i></span><span class="board_long">Servicios</span>&nbsp;</a>]</span> <span style="white-space:nowrap">[<a href="contacto.html" title="notitle"> Contacto</a>/<a href="Hire" title="hire"> Hire </a>/<a href="db.php" title="Hack"> database</a>]</span> [<!-- <a href="/a/" title="games"> games</a>/<a href="/b/" title="upload"> upload</a>/<a href="##" title="ascii"> ascii</a>/<a href="#" title=""> search</a>/<a href="/hm/" title="Other"> Other</a>/<a href="#" title="Terremoto"> Terremoto</a>/<a href="irii" title="virii"> virii</a>/<a href="a" title="a"> a&nbsp;</a>/<a href="b" title="b"> b&nbsp;</a>/<a href="c" title="c"> c&nbsp;</a>/<a href="d" title="d"> d&nbsp;</a>/<a href="/pop/" title="Populaarikulttuuri"> pop&nbsp;</a>/<a href="/int/" title="International"> int&nbsp;</a>] <span style="white-space:nowrap">[<a href="/t/" title="Lihatiski"> t&nbsp;</a>/<a href="/s/" title="Sexyt"> s&nbsp;</a>/<a href="/k/" title="Kundit"> k&nbsp;</a>/<a href="/r/" title="Ruinaukset"> r&nbsp;</a>]</span> <span style="white-space:nowrap">[<a href="/tori/" title="Kaupat"> tori&nbsp;</a>/<a href="/y/" title="Työpaikat"> y&nbsp;</a>/<a href="/meta/" title="Kanava"> meta&nbsp;</a>/<a href="/d/" title="Filut"> d&nbsp;</a>/<a href="/tmp/" title="Testit"> tmp&nbsp;</a>]</span> <span style="white-space:nowrap">[<a href="/theme.php" title="V&auml;riteeman vaihto"> <span class="board_short"><i class="fa fa-adjust"></i></span><span class="board_long">v&auml;rit</span>&nbsp;</a>/<a href="/theme.php?img=next" title="Kuvat vasemmalle/oikealle/pois"> <span class="board_short"><i class="fa fa-picture-o"></i></span><span class="board_long">kuvat</span>&nbsp;</a>/<a href="#nojs" title="Kuvat isoiksi/pieniksi" onclick="javascript:expandImages();return false;"> <span class="board_short"><i class="fa fa-expand fa-rotate-90"></i></span><span class="board_long">isot</span>&nbsp;</a>]</span> --></div>
 
-
-<meta charset="utf-8">
-</head>
-<body>
- <p>
- _   _      _ _                            _     _ _
- | | | | ___| | | ___   __      _____  _ __| | __| | |
- | |_| |/ _ \ | |/ _ \  \ \ /\ / / _ \| '__| |/ _` | |
- |  _  |  __/ | | (_) |  \ V  V / (_) | |  | | (_| |_|
- |_| |_|\___|_|_|\___/    \_/\_/ \___/|_|  |_|\__,_(_)
-
- </p>
-
-
-
-
-</body>
+                <img src="large.gif" /><br />
+                <input name="query" id="box" type="text" autofocus="autofocus" onkeydown="if (event.keyCode == 13) document.getElementById('submitbutton').click()" /><br />
+                <label><input type="checkbox" checked="checked">1</label>
+                <label><input type="checkbox" checked="checked">2</label>
+                <label><input type="checkbox" checked="checked">3</label>
+                <label><input type="checkbox" checked="checked">4</label>
+                <label><input type="checkbox" checked="checked">5</label><br />
+                <input type="submit" value="Search for memes" onclick="search()" id="submitbutton" />
+                <!-- https://www.google.com/search?q=alien+site:knowyourmeme.com&tbm=isch -->
+                <hr>
+                <script src="https://satoshibox.com/js/embed.js" type="text/javascript"></script><a href="https://satoshibox.com/jzqyahxd3j4rv6pgj3t22o5u" class="satoshibox-link"><img src="https://satoshibox.com/img/button_m.png" alt="Buy with Bitcoin"></a>
+        </body>
 </html>
+
+
+
+
+
