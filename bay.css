@@ -1,0 +1,39 @@
+.boardlist {
+    font-size: 90%;
+}
+.boardlist {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    padding: 3px 10px;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+    background: rgba(26, 26, 26, 0.898) none repeat scroll 0% 0%;
+        background-color: rgba(26, 26, 26, 0.898);
+        background-image: none;
+        background-repeat: repeat;
+        background-attachment: scroll;
+        background-position: 0% 0%;
+        background-clip: border-box;
+        background-origin: padding-box;
+        background-size: auto auto;
+    color: #666;
+    text-align: center;
+    white-space: nowrap;
+}
+a {
+    color: #F66;
+    text-decoration: none;
+        text-decoration-color: -moz-use-text-color;
+        text-decoration-line: none;
+        text-decoration-style: solid;
+}
